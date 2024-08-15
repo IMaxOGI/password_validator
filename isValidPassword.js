@@ -8,6 +8,6 @@ export function isValidPassword(line) {
   return charCount >= min && charCount <= max;
 }
 
-// test example
+// TEST EXAMPLE
 // const exampleLine = "a 1-5: abcdj";
 // console.log(`Is the password valid? ${isValidPassword(exampleLine)}`);
